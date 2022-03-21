@@ -7,4 +7,6 @@ This repository consists of six directories in correspondence to six chapters of
 
 *Notes are something novel or inspirational to me instead of simplification of the book. If you are willing to master overall and detailed knowledge, please refer to the link above.*
 
+*If you cannot display mathematic equation correctly, please download [*MathJax*](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) plugin.*
+
 **Hope you enjoy my whim.**
