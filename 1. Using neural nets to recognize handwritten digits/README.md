@@ -5,12 +5,7 @@
 
 Suppose $x$ is the input value; $w$ is the learning weight; $b$ is the bias, which is equal to $-threshold$.The core equation of Perceptron algorithm is:
 
-$$
-output=\begin{cases}
- 0 & \text{ if } w\cdot x+b\le 0 \\
- 1 & \text{ if } w\cdot x+b>0
-\end{cases}
-$$
+![](https://latex.codecogs.com/svg.image?output=\left\{\begin{matrix}&space;0&&space;\text{if}\&space;w\cdot&space;x&plus;b\leq&space;0\\&space;1&&space;\text{if}\&space;w\cdot&space;x&plus;b>&space;0&space;\\\end{matrix}\right.)
 
 If you are familar with logistic regression, it turns out that the output is activated by the step function rather than sigmoid function. Therefore, naturally we can find that sigmoid function is acutally the smooth version of step function.
 
