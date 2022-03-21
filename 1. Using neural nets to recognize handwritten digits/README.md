@@ -14,4 +14,4 @@ $$
 
 If you are familar with logistic regression, it turns out that the output is activated by the step function rather than sigmoid function. Therefore, naturally we can find that sigmoid function is acutally the smooth version of step function.
 
-The decision boundary of whether Perceptron or Logistic Regression is $w\cdot x+b=0$.
+The decision boundary of whether Perceptron or Logistic Regression is [$w\cdot x+b=0$](https://latex.codecogs.com/svg.image?w\cdot&space;x&plus;b=0).
