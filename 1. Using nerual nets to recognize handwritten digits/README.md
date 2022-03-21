@@ -1,1 +1,0 @@
-# Using nerual nets to recognize handwritten digits
