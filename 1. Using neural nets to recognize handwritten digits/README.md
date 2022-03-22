@@ -1,7 +1,10 @@
 # Using neural nets to recognize handwritten digits
 
 ## Perceptrons
+<div align=center>
 ![](http://neuralnetworksanddeeplearning.com/images/tikz0.png#pic_center)
+</div>
+
 
 Suppose $x$ is the input value; $w$ is the learning weight; $b$ is the bias, which is equal to $-threshold$.The core equation of Perceptron algorithm is:
 
@@ -22,7 +25,10 @@ $$
 
 * The decision boundary of whether Perceptron or Logistic Regression is $w\cdot x+b=0$.
 
+<div align=center>
 ![](http://neuralnetworksanddeeplearning.com/images/tikz2.png)
+</div>
+
 
 If we set the weight to $-2$ and bias to $3$, the single neuron is a NAND gate.
 
