@@ -67,24 +67,24 @@ It's natural to match different local digit pattern features with real numbers r
 Due to the third layer output $x$ is a vector shape of (10,1), we should construct a matrix $W\in R^{4\times 10}$ in response to meet the output $z$ shaped (4,1). In addition, the shape of $b$ is (4,1) consistent with the output value. Firstly we ommit the $b$ to simplify the problem:
 $$
 z = Wx=\begin{bmatrix}
- w_{00}x_0+w_{01}x_1+...+w_{09}x_9\\
- w_{10}x_0+w_{11}x_1+...+w_{19}x_9\\
- w_{20}x_0+w_{21}x_1+...+w_{29}x_9\\
+ w_{00}x_0+w_{01}x_1+...+w_{09}x_9\\\\
+ w_{10}x_0+w_{11}x_1+...+w_{19}x_9\\\\
+ w_{20}x_0+w_{21}x_1+...+w_{29}x_9\\\\
 w_{30}x_0+w_{31}x_1+...+w_{39}x_9
 \end{bmatrix}
 $$
 On account of only one nueron fired in the third layer, mere one scalar $x$ is activated and others are close to 0. Thus, actually each time only one column in matrix $w$ is meaningful. For example, if the value of the third layer is a 1, the output is:
 $$
 z = Wx=\begin{bmatrix}
- 0+w_{01}+0+...+0\\
- 0+w_{11}+0+...+0\\
- 0+w_{21}+0+...+0\\
+ 0+w_{01}+0+...+0\\\\
+ 0+w_{11}+0+...+0\\\\
+ 0+w_{21}+0+...+0\\\\
  0+w_{31}+0+...+0
 \end{bmatrix}
 =\begin{bmatrix}
- w_{01}\\
- w_{11}\\
- w_{21}\\
+ w_{01}\\\\
+ w_{11}\\\\
+ w_{21}\\\\
  w_{31}
 \end{bmatrix}
 $$
@@ -92,9 +92,9 @@ In summary, the column of matrix $W$ is the relative binary numbers.
 Therefore, we set all elements of $b$ to 0 and weight matrix $W$ to:
 $$
 W=\begin{bmatrix}
- 0,1,0,1,0,1,0,1,0,1\\
- 0,0,1,1,0,0,1,1,0,0\\
- 0,0,0,0,1,1,1,1,0,0 \\
+ 0,1,0,1,0,1,0,1,0,1\\\\
+ 0,0,1,1,0,0,1,1,0,0\\\\
+ 0,0,0,0,1,1,1,1,0,0\\\\
  0,0,0,0,0,0,0,0,1,1
 \end{bmatrix}
 $$
