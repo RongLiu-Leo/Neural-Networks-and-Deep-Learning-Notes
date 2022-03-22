@@ -2,7 +2,7 @@
 
 ## Perceptrons
 <div align=center>
-![](http://neuralnetworksanddeeplearning.com/images/tikz0.png#pic_center)
+<img src=http://neuralnetworksanddeeplearning.com/images/tikz0.png#pic_center/>
 </div>
 
 
@@ -26,7 +26,7 @@ $$
 * The decision boundary of whether Perceptron or Logistic Regression is $w\cdot x+b=0$.
 
 <div align=center>
-![](http://neuralnetworksanddeeplearning.com/images/tikz2.png)
+<img src=http://neuralnetworksanddeeplearning.com/images/tikz2.png/>
 </div>
 
 
