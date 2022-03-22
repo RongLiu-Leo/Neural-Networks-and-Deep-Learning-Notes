@@ -1,7 +1,7 @@
 # Using neural nets to recognize handwritten digits
 
 ## Perceptrons
-![](http://neuralnetworksanddeeplearning.com/images/tikz0.png)
+![](http://neuralnetworksanddeeplearning.com/images/tikz0.png#pic_center)
 
 Suppose $x$ is the input value; $w$ is the learning weight; $b$ is the bias, which is equal to $-threshold$.The core equation of Perceptron algorithm is:
 
