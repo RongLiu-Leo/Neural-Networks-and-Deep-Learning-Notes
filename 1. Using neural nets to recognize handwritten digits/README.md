@@ -2,7 +2,7 @@
 
 ## Perceptrons
 <div align=center>
-<img src=http://neuralnetworksanddeeplearning.com/images/tikz0.png#pic_center/>
+<img src=http://neuralnetworksanddeeplearning.com/images/tikz0.png/>
 </div>
 
 
